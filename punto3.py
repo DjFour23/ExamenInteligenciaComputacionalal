@@ -5,8 +5,8 @@ Created on Wed Mar  2 19:59:46 2022
 @author: dbenavid5
 """
 
-sueldoVendedor = int(input('Ingrese el sueldo base del vendedor: \n'))
-totalenVentas = int(input('Valor obtenido en ventas: \n'))
+sueldoVendedor = float(input('Ingrese el sueldo base del vendedor: \n'))
+totalenVentas = float(input('Valor obtenido en ventas: \n'))
 sueldoEnVentas= totalenVentas * 0.15
 sueldoTotal = sueldoVendedor + sueldoEnVentas
 
